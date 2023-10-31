@@ -19,5 +19,5 @@ This is my masterpiece, I connected the stitches to the board, although it looks
 
 Next stage, I added 4 electric resistance to the board, which are two 10w, one 100w and one 200w. When I inserted these to the board, I should put them in the right position of the board, cut the remaining wire and soldered them as well. DHT22 is the sensor that we use in this project, which could help us to detect the environment temperature and moisture around the plant.
 
-![add resistance and DHT22](/pictures/addresistanceand DHT22.jpg)
+![add resistance and DHT22](/pictures/add-resistance-and-DHT22.jpg)
 
