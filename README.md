@@ -37,6 +37,8 @@ On the last session, there were a lot of work to do. At first is inserting SD ca
 
 ![Raspberry-Pi](/pictures/Raspberry-Pi.jpg)
 
+With the guidance, I installed InfluxDB onRPi and set up my own username and password as well. Next step is to install Telegraf, so I returned to the terminal and type the given code.
+
 ![terminal](/pictures/terminal.jpg)
 
 
