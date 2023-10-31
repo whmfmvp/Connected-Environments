@@ -45,10 +45,18 @@ Next step is to visualize three key data on graphs in InfluxDB, I felt really de
 
 ![InfluxDB](/pictures/InfluxDB.jpg)
 
-When I doing my project, there was raining with sunshine, which was really beautiful so I want to share photos with you~ 
+When I doing my project, there was raining with sunshine outside, which was really beautiful so I want to share photos with you~ 
 
 ![Sunshine-with-Marshgate](/pictures/Sunshine-with-Marshgate.jpg)
 
+Also rainbow as well!
+
 ![Rainbow](/pictures/Rainbow.jpg)
 
+Ok, back to my project last stage, which was install Grafana. With the guidance of following steps and other classmates, I have done it very quickly.
 
+![connect-device-to-computer-and-plant](/pictures/connect-device-to-computer-and-plant.jpg)
+
+![Grafana](/pictures/Grafana.jpg)
+
+That's all my project about plant monitor! Thanks for watching!
