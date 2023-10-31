@@ -27,5 +27,9 @@ So basically I thought it is a simple mould of IoT(Internet of Things) as I can 
 
 Next stage, I added 4 electric resistance to the board, which are two 10Ω, one 100Ω and one 200Ω. When I inserted these to the board, I should put them in the right position of the board, cut the remaining wire and soldered them as well. DHT22 is the sensor that we use in this project, which could help us to detect the environment temperature and moisture around the plant.
 
+![connect-two-boards](/pictures/connect-two-boards.jpg)
+
+In setup stage, I have already setup the pin for the DHT sensor, start the wifi and set up the MQTT server. By copy the code step by step that you gave to us, I can watch the data of my plant through MQTT server, including temperature, density and moisture.
+
 ![MQTT-Explorer](/pictures/MQTT-Explorer.jpg)
 
