@@ -37,4 +37,6 @@ On the last session, there were a lot of work to do. At first is inserting SD ca
 
 ![Raspberry-Pi](/pictures/Raspberry-Pi.jpg)
 
+![terminal](/pictures/terminal.jpg)
+
 
