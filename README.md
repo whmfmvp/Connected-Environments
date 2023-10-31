@@ -35,4 +35,6 @@ In setup stage, I have already setup the pin for the DHT sensor, start the wifi 
 
 On the last session, there were a lot of work to do. At first is inserting SD card in the laptop, and start Respberry Pi programme to write related information in it. I have tried several times, but it didn't work. Therefore, I asked you for helping. You told me I have tried several times, the computer has a kind of protection peculiarity, so I need to open terminal and type sudo nano with file path to delete the related messages so that I can access to type password again! In addition, I should use my own username instead of pi which is before @, so that I can type my password to login in. Importantly, after writing information in SD card, we should insert this SD card in Raspberry Pi and plug in.
 
-![]()
+![Raspberry-Pi](/pictures/Raspberry-Pi.jpg)
+
+
