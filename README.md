@@ -19,7 +19,7 @@ This is my masterpiece, I connected the stitches to the board, although it looks
 
 Several weeks ago I learned how to use MQTT Explorer on Steven's Web Architecture lecture, so it is not hard for me to connect our lab's MQTT server. So I connected the Arduino board to my computer and MQTT, the light on the board flash when I send 1 through student/CASA0014/plant/zczqhw8/inTopic, vice versa, the light turned off when I sent 0 to MQTT server.
 
-
+![MQTT-inTopic](/pictures/MQTT-inTopic.jpg)
 
 So basically I thought it is a simple mould of IoT(Internet of Things) as I can use computer to control the object's status!
 
