@@ -21,3 +21,6 @@ Next stage, I added 4 electric resistance to the board, which are two 10w, one 1
 
 ![add resistance and DHT22](/pictures/add-resistance-and-DHT22.jpg)
 
+Before I learned how to use MQTT Explorer on Steven's Web Architecture, so it is not hard for me to connect our lab's MQTT server. So I connected the Arduino board to my computer and MQTT, the light on the board flash when I send 1 through student/CASA0014/plant/zczqhw8/inTopic, vice versa, the light turned off when I sent 0 to MQTT server.
+
+!
