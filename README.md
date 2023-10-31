@@ -41,4 +41,14 @@ With the guidance, I installed InfluxDB onRPi and set up my own username and pas
 
 ![terminal](/pictures/terminal.jpg)
 
+Next step is to visualize three key data on graphs in InfluxDB, I felt really desparate in this stage as I didn't have filters below MQTT-data!! I tried several times but it didn't get successful at once! I asked other classmates who have already finished this step, however, they didn't know what is wrong. Nothing I can do, so I beg you for helping as usual, you told me if I already start telegraph I need to stop telegraph firstly and then restart telegraph. I tried with your guidance and it finally works, it's not easy! Then I can visulize real-time data on my InfluxDB website.
+
+![InfluxDB](/pictures/InfluxDB.jpg)
+
+When I doing my project, there was raining with sunshine, which was really beautiful so I want to share photos with you~ 
+
+![Sunshine-with-Marshgate](/pictures/Sunshine-with-Marshgate.jpg)
+
+![Rainbow](/pictures/Rainbow.jpg)
+
 
