@@ -29,7 +29,7 @@ Next stage, I added 4 electric resistance to the board, which are two 10Ω, one 
 
 ![connect-two-boards](/pictures/connect-two-boards.jpg)
 
-In setup stage, I have already setup the pin for the DHT sensor, start the wifi and set up the MQTT server. By copy the code step by step that you gave to us, I can watch the data of my plant through MQTT server, including temperature, density and moisture.
+In setup stage, I have already setup the pin for the DHT sensor, start the wifi and set up the MQTT server. By copy the code step by step that you gave to us, I can watch the data of my plant through MQTT server, including temperature, humidity and moisture.
 
 ![MQTT-Explorer](/pictures/MQTT-Explorer.jpg)
 
