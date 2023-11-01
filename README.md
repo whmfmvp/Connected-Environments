@@ -1,13 +1,13 @@
 # Plant Monitor
 I'll introduce what I have learned and skills develped from the project plant monitor.
 
-Here we go
+Here we go.
 
 Firstly, set up feather. I downloaded the Arduino IDE and plug in my Huzzah to a USB port.
 Then I use the given code to connect the lab wifi CE-hub-student with Arduino, it works.
 After that, I went to the libraries and downloaded the ezTime library, when I opened the serial monitor, real time data could appear!
 
-On the workshop, you taught us how to solder by showing the process on the screen. Actually, it was my first time doing things like this, I studied marketing when I was an undergraduate, so basically I have no idea about how to solder objects by using machine and wire.
+On the workshop, professor taught us how to solder by showing the process on the screen. Actually, it was my first time doing things like this, I studied marketing when I was an undergraduate, so basically I have no idea about how to solder objects by using machine and wire.
 
 With the help of video and other classmates, I started to do it by myself. To be honest, it's not really hard and also interesting! 
 But be careful!!! 
@@ -25,27 +25,29 @@ So basically I thought it is a simple mould of IoT(Internet of Things) as I can 
 
 ![add resistance and DHT22](/pictures/add-resistance-and-DHT22.jpg)
 
-Next stage, I added 4 electric resistance to the board, which are two 10Ω, one 100Ω and one 200Ω. When I inserted these to the board, I should put them in the right position of the board, cut the remaining wire and soldered them as well. DHT22 is the sensor that we use in this project, which could help us to detect the environment temperature and moisture around the plant.
+Next stage, I added 4 electric resistance to the board, which are two 10Ω, one 100Ω and one 200Ω. When I inserted these to the board, I should put them in the right position of the board, cut the remaining wire and soldered them as well. DHT22 is the sensor that we use in this project, which could help us to detect the environment temperature and humidity around the plant.
 
 ![connect-two-boards](/pictures/connect-two-boards.jpg)
 
-In setup stage, I have already setup the pin for the DHT sensor, start the wifi and set up the MQTT server. By copy the code step by step that you gave to us, I can watch the data of my plant through MQTT server, including temperature, humidity and moisture.
+In setup stage, I have already setup the pin for the DHT sensor, start the wifi and set up the MQTT server. By copy the code step by step that professor gave to us, I can watch the data of my plant through MQTT server, including temperature, humidity and moisture.
 
 ![MQTT-Explorer](/pictures/MQTT-Explorer.jpg)
 
-On the last session, there were a lot of work to do. At first is inserting SD card in the laptop, and start Respberry Pi programme to write related information in it. I have tried several times, but it didn't work. Therefore, I asked you for help. You told me I have tried several times, the computer has a kind of protection peculiarity, so I need to open terminal and type sudo nano with file path to delete the related messages so that I can access to type password again! In addition, I should use my own username instead of pi which is after ssh and before @, so that I can type my password to login in. Importantly, after writing information in SD card, we should insert this SD card in Raspberry Pi and plug in.
+In my project, I use fleshiness as my plant.
+
+On the last session, there were a lot of work to do. At first is inserting SD card in the laptop, and start Respberry Pi programme to write related information in it. I have tried several times, but it didn't work. Therefore, I asked professor for help. He told me I have tried several times, the computer has a kind of self-protection peculiarity, so I need to open terminal and type sudo nano with file path to delete the related messages so that I can access to type password again! In addition, I should use my own username instead of pi which is after ssh and before @, so that I can type my password to login in. Importantly, after writing information in SD card, we should insert this SD card in Raspberry Pi and plug in.
 
 ![Raspberry-Pi](/pictures/Raspberry-Pi.jpg)
 
-With the guidance, I installed InfluxDB onRPi and set up my own username and password as well. Next step is to install Telegraf, so I returned to the terminal and type the given code.
+With the guidance, I installed InfluxDB on RPi and set up my own username and password as well. Next step is to install Telegraf, so I returned to the terminal and type the given code.
 
 ![terminal](/pictures/terminal.jpg)
 
-Next step is to visualize three key data on graphs in InfluxDB, I felt really desparate in this stage as I didn't have filters below MQTT-data!! I tried several times but it didn't get successful at once! I asked other classmates who have already finished this step, however, they didn't know what is wrong. Nothing I can do, so I beg you for helping as usual, you told me if I already start telegraph I need to stop telegraph firstly and then restart telegraph. I tried with your guidance and it finally works, it's not easy! Then I can visulize real-time data on my InfluxDB website.
+Next step is to visualize three key data on graphs in InfluxDB, I felt really desparate in this stage as I didn't have filters below MQTT-data!! I tried several times but it didn't work successful at once! I asked other classmates who have already finished this step, however, they didn't know what is wrong. Nothing I can do, so I beg professor for help as usual, he told me if I already start telegraph I need to stop telegraph firstly and then restart telegraph. I tried with his guidance and it finally works, it's not easy! Then I can visulize real-time data on my InfluxDB website.
 
 ![InfluxDB](/pictures/InfluxDB.jpg)
 
-When I doing my project, there was raining with sunshine outside, which was really beautiful so I want to share photos with you~ 
+When I doing my project, there was raining with sunshine outside, which was really beautiful so I want to share photos with yourselves~ 
 
 ![Sunshine-with-Marshgate](/pictures/Sunshine-with-Marshgate.jpg)
 
@@ -55,7 +57,7 @@ Also rainbow as well!
 
 Ok, back to my project last stage, which was install Grafana. With the guidance of following steps and other classmates, I have done it very quickly.
 
-![connect-device-to-computer-and-plant](/pictures/connect-device-to-computer-and-plant.jpg)
+![display](/pictures/display.jpg)
 
 ![Grafana](/pictures/Grafana.jpg)
 
