@@ -63,6 +63,12 @@ Ok, back to my project last stage, which was install Grafana. With the guidance 
 
 ![Grafana](/pictures/Grafana.jpg)
 
-After finishing all steps, now real-time data visulization appear on my Grafana dashboard. That's all my project about plant monitor! Thanks for watching!
+After finishing all steps, now real-time data visulization appear on my Grafana dashboard. 
+
+![change](/pictures/change.jpg)
+
+In addition, I added two lights to my bread board linked with Huzzah, which is green and yellow. I set up when the moisture is more than 10 the green light will alight, it means the plant's moisture status is fine, so we don't need to take additional measures. However, yellow light become bright when thin figure is less than 10, it means the soil condition is very dry, we need to supply fleshiness with a small volumn of water. If this number is increasing more than 10, the light will be changed from yellow to green.
+
+That's all my project about plant monitor! Thanks for watching!
 
 ![result](/pictures/result.jpg)
