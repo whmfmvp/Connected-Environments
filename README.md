@@ -60,3 +60,5 @@ Ok, back to my project last stage, which was install Grafana. With the guidance 
 ![Grafana](/pictures/Grafana.jpg)
 
 After finishing all steps, now real-time data visulization appear on my Grafana dashboard. That's all my project about plant monitor! Thanks for watching!
+
+![result](/pictures/result.jpg)
