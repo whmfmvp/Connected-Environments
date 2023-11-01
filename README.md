@@ -33,7 +33,9 @@ In setup stage, I have already setup the pin for the DHT sensor, start the wifi 
 
 ![MQTT-Explorer](/pictures/MQTT-Explorer.jpg)
 
-In my project, I use fleshiness as my plant.
+In my project, I use fleshiness as my plant. This plant doesn't need to much water, maybe just supply it with a small volumn of water every two weeks.
+
+![fleshiness](/pictures/fleshiness.jpg)
 
 On the last session, there were a lot of work to do. At first is inserting SD card in the laptop, and start Respberry Pi programme to write related information in it. I have tried several times, but it didn't work. Therefore, I asked professor for help. He told me I have tried several times, the computer has a kind of self-protection peculiarity, so I need to open terminal and type sudo nano with file path to delete the related messages so that I can access to type password again! In addition, I should use my own username instead of pi which is after ssh and before @, so that I can type my password to login in. Importantly, after writing information in SD card, we should insert this SD card in Raspberry Pi and plug in.
 
