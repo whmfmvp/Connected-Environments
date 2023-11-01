@@ -41,6 +41,8 @@ void setup() {
   digitalWrite(sensorVCC, LOW);
   pinMode(blueLED, OUTPUT); 
   digitalWrite(blueLED, HIGH);
+pinMode(14, OUTPUT); 
+pinMode(16, OUTPUT); 
 
   // open serial connection for debug info
   Serial.begin(115200);
@@ -65,6 +67,14 @@ void loop() {
   // handler for receiving requests to webserver
   server.handleClient();
 
+if(Moisture<10){
+digitalWrite(14,HIGH);
+digitalWrite(16,LOW);
+}
+else{
+  digitalWrite(14,LOW);
+  digitalWrite(16,HIGH);
+}
 
     delay(5000);
     readMoisture();
